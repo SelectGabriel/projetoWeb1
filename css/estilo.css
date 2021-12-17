@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+  
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+
+.login{
+    margin-left: 70%;
+    background-color: orangered;
+}
+
+.active {
+    background-color: blue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main content */
+.main {
+    margin-top: 45px; /* Add a top margin to avoid content overlay */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 0px 10px;
+}
+
+.logo{
+    margin-top: 50px;
+    max-width: 5%;
+    height: auto;
+    display: inline-block;
+}
+
+
+/* The sidebar menu */
+.sidenav { 
+  margin-top: 45px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #333; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.button {
+  background-color: #333; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
